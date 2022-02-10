@@ -1,0 +1,95 @@
+/* 
+2.488rem/39.81px	A Visual Type Scale
+2.074rem/33.18px	A Visual Type Scale
+1.728rem/27.65px	A Visual Type Scale
+1.44rem/23.04px	A Visual Type Scale
+1.2rem/19.20px	A Visual Type Scale
+1rem/16.00px	A Visual Type Scale
+0.833rem/13.33px	A Visual Type Scale
+0.694rem/11.11px	A Visual Type Scale
+0.579rem/9.26px	A Visual Type Scale
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.938rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  border-radius: 20px;
+  max-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+  width: 70%;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+
+.flex {
+  width: 90%;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  max-width: 100%;
+  display: inline-block;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.title-text {
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.paragraph-text {
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+  margin-bottom: 36px;
+}
+
+.attribution {
+  font-size: 0.688rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 20%;
+  }
+
+  .title-text {
+    line-height: 1.1;
+  }
+
+  .paragraph-text {
+    line-height: 1.2;
+  }
+}
