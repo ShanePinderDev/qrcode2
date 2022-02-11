@@ -29,20 +29,22 @@ body {
 
 .container {
   border-radius: 20px;
-  max-height: 800px;
+  /* max-height: 800px; */
+  min-height: 500px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  align-items: space-between;
   justify-content: center;
   background-color: hsl(0, 0%, 100%);
   width: 70%;
-  padding-top: 15px;
-  margin-bottom: 20px;
+  padding-top: 0.938em;
+  margin-bottom: 1.25em;
 }
 
 .flex {
   width: 90%;
-  height: 80%;
-
+  /* height: 80%; */
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -52,7 +54,7 @@ img {
   max-width: 100%;
   display: inline-block;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 }
 
 .title-text {
@@ -60,7 +62,8 @@ img {
   text-align: center;
   line-height: 1.1;
   letter-spacing: -1px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  margin-bottom: 1.875em;
 }
 
 .paragraph-text {
@@ -68,13 +71,13 @@ img {
   line-height: 1.3;
   text-align: center;
   color: hsl(220, 15%, 55%);
-  margin-bottom: 36px;
+  /* margin-bottom: 36px; */
 }
 
 .attribution {
   font-size: 0.688rem;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625em;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
